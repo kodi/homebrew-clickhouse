@@ -6,7 +6,7 @@ class Clickhouse < Formula
 
   head "https://github.com/yandex/ClickHouse.git"
 
-  devel do
+  head do
     url "https://github.com/yandex/ClickHouse.git", :tag => "v19.5.3.8-stable"
   end
 
